@@ -17,7 +17,7 @@
 <body>
     <nav>
         <div class="nav_top_buttons">
-            <a href="/" class="nav-link">
+            <a href="#" class="nav-link">
                 <div class="navbar_icon">
                     <i class="fas fa-home"></i>
                 </div>
@@ -52,18 +52,21 @@
             </a>
         </div>
         <div class="nav_bottom_buttons">
-            <a href="/" class="nav-link nav-bottom" id="theme-link">
-                <div class="navbar_icon">
-                    <i class="fas fa-adjust"></i>
+            <a href="#" class="nav-link nav-bottom" id="theme-link" onclick="cycleTheme();">
+                <div class="navbar_icon" id="theme-icon">
+                    <div>
+                        <i class="fas fa-adjust"></i>
+                    </div>
                 </div>
                 <div class="navbar_text">
-                    <span>Dark</span>
+                    <span id="theme-name">Dark</span>
                 </div>
             </a>
         </div>
     </nav>
     <main>
     </main>
+    <script src="/res/js/themes/themes.js"></script>
 </body>
 
 </html>

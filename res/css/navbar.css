@@ -1,6 +1,6 @@
 nav {
     position: fixed;
-    background-color: var(--accent-background-color);
+    background-color: var(--background2-color);
     width: 5rem;
     height: 100%;
     display: grid;
@@ -67,4 +67,10 @@ nav:hover span {
 
 nav:hover {
     width: 15rem;
+}
+
+#theme-icon div {
+    width: min-content;
+    height: min-content;
+    transition: transform 0.5s cubic-bezier(.5, -1, .5, 2);
 }
