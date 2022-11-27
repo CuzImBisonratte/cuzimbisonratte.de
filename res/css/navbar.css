@@ -1,4 +1,5 @@
 nav {
+    position: fixed;
     background-color: var(--accent-background-color);
     width: 5rem;
     height: 100%;
