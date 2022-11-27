@@ -26,7 +26,7 @@ nav * {
 }
 
 .nav-link:hover {
-    background-color: var(--background-color);
+    background-color: var(--background3-color);
     border-radius: 0.5rem;
     transition: background-color 0.25s;
 }
