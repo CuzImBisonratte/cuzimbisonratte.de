@@ -1,19 +1,19 @@
 // Key stroke listener
 
 var shortcuts = {
-    "shift+t": function() {
+    "alt+t": function() {
         cycleTheme();
     },
-    "shift+s": function() {
+    "alt+s": function() {
         window.location = ("" + window.location).replace(/#[A-Za-z0-9_]*$/, '') + "#main"
     },
-    "shift+p": function() {
+    "alt+p": function() {
         window.location = ("" + window.location).replace(/#[A-Za-z0-9_]*$/, '') + "#portfolio"
     },
-    "shift+ü": function() {
+    "alt+ü": function() {
         window.location = ("" + window.location).replace(/#[A-Za-z0-9_]*$/, '') + "#about"
     },
-    "shift+k": function() {
+    "alt+k": function() {
         window.location = ("" + window.location).replace(/#[A-Za-z0-9_]*$/, '') + "#contact"
     }
 }
@@ -25,6 +25,9 @@ onkeydown = function(e) {
     }
     if (e.shiftKey) {
         key = "shift+" + key;
+    }
+    if (e.ctrlKey) {
+        key = "ctrl+" + key;
     }
     if (shortcuts[key]) {
         shortcuts[key]();
