@@ -72,5 +72,5 @@ nav:hover {
 #theme-icon div {
     width: min-content;
     height: min-content;
-    transition: transform 0.5s cubic-bezier(.5, -1, .5, 2);
+    transition: transform 0.5s cubic-bezier(.5, -0.5, .5, 1.5);
 }
