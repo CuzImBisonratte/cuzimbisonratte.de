@@ -11,63 +11,22 @@
     <link rel="stylesheet" href="/res/fontawesome/css/solid.min.css">
     <link rel="stylesheet" href="/res/css/fonts.css">
     <link rel="stylesheet" href="/res/css/main.css">
-    <link rel="stylesheet" href="/res/css/navbar.css">
 </head>
 
 <body>
-    <nav>
-        <div class="nav_top_buttons">
-            <a href="#" class="nav-link">
-                <div class="navbar_icon">
-                    <i class="fas fa-home"></i>
-                </div>
-                <div class="navbar_text">
-                    <span>Start</span>
-                </div>
-            </a>
-            <a href="/portfolio" class="nav-link">
-                <div class="navbar_icon">
-                    <i class="fas fa-briefcase"></i>
-                </div>
-                <div class="navbar_text">
-                    <span>Portfolio</span>
-                </div>
-
-            </a>
-            <a href="/about" class="nav-link">
-                <div class="navbar_icon">
-                    <i class="fas fa-user"></i>
-                </div>
-                <div class="navbar_text">
-                    <span>Über</span>
-                </div>
-            </a>
-            <a href="/contact" class="nav-link">
-                <div class="navbar_icon">
-                    <i class="fas fa-envelope"></i>
-                </div>
-                <div class="navbar_text">
-                    <span>Kontakt</span>
-                </div>
-            </a>
+    <a href="#" class="nav-link nav-bottom" id="theme-link" onclick="cycleTheme();">
+        <div class="navbar_icon" id="theme-icon">
+            <div>
+                <i class="fas fa-adjust"></i>
+            </div>
         </div>
-        <div class="nav_bottom_buttons">
-            <a href="#" class="nav-link nav-bottom" id="theme-link" onclick="cycleTheme();">
-                <div class="navbar_icon" id="theme-icon">
-                    <div>
-                        <i class="fas fa-adjust"></i>
-                    </div>
-                </div>
-                <div class="navbar_text">
-                    <span id="theme-name">Dark</span>
-                </div>
-            </a>
+        <div class="navbar_text">
+            <span id="theme-name">Dark</span>
         </div>
-    </nav>
-    <main id="main">
+    </a>
+    <main>
     </main>
     <script src="/res/js/themes/themes.js"></script>
-    <script src="/res/js/shortcuts/shortcuts.js"></script>
 </body>
 
 </html>
