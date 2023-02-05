@@ -53,14 +53,13 @@ function setTheme(set_to_theme) {
                 }
             });
             window.setTimeout(() => {
-                document.getElementById("theme-icon").children[0].innerHTML = theme.icon;
+                document.getElementById("themeswitch").children[0].innerHTML = theme.icon;
             }, 250);
-            document.getElementById("theme-name").innerText = theme.displayName;
         }
     });
-    let rotation = parseInt((document.getElementById("theme-icon").children[0].style.transform || "rotate(0deg);").replace("rotate(", "").replace("deg);", "").replace("deg)", ""));
+    let rotation = parseInt((document.getElementById("themeswitch").children[0].style.transform || "rotate(0deg);").replace("rotate(", "").replace("deg);", "").replace("deg)", ""));
     rotation = rotation + 360;
-    document.getElementById("theme-icon").children[0].style.transform = "rotate(" + rotation + "deg)";
+    document.getElementById("themeswitch").children[0].style.transform = "rotate(" + rotation + "deg)";
     localStorage.setItem("theme", set_to_theme);
 }
 
