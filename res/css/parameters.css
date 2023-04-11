@@ -11,3 +11,19 @@
 .bold {
     font-weight: bold;
 }
+
+.link-external {
+    text-decoration: none;
+    position: relative;
+    border-bottom: 2px solid var(--accent-color);
+}
+
+.link-external::after {
+    content: "\f08e";
+    font-family: "Font Awesome 6 Free";
+    font-size: 0.75em;
+    color: var(--accent-color);
+    position: absolute;
+    right: -1em;
+    top: -0.5em;
+}
