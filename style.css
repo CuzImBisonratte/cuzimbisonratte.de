@@ -1,0 +1,62 @@
+/* Arrows */
+
+.arrows {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: var(--background3-color);
+    font-size: 2rem;
+    border-top-left-radius: 1rem;
+    width: 4rem;
+}
+
+.arrows>i {
+    display: grid;
+    place-content: center;
+    margin: auto;
+    aspect-ratio: 1/1;
+    margin-top: 0.25rem;
+    cursor: pointer;
+    transition: 0.5s color;
+}
+
+.arrows>i:hover {
+    color: var(--accent-color);
+}
+
+
+/* Main */
+
+.slide-full {
+    min-height: 100vh;
+}
+
+.slide-half {
+    min-height: 50vh;
+}
+
+.slide-third {
+    min-height: 33vh;
+}
+
+#slide-title {
+    background-color: var(--slide_title_bg-color);
+    color: var(--slide_title-color);
+    font-size: 4rem;
+}
+
+#slide-aboutme {
+    background-color: var(--slide_aboutme_bg-color);
+    color: var(--slide_aboutme-color);
+    padding: 2rem;
+}
+
+#slide-work {
+    background-color: var(--slide_work_bg-color);
+    color: var(--slide_work-color);
+}
+
+#slide-gh_stats {
+    background-color: var(--slide_ghstats_bg-color);
+    color: var(--slide_ghstats-color);
+}

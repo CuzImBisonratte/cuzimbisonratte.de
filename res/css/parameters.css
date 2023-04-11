@@ -1,0 +1,13 @@
+.centerContent {
+    display: grid;
+    place-content: center;
+}
+
+.centerChildren {
+    display: grid;
+    place-items: center;
+}
+
+.bold {
+    font-weight: bold;
+}

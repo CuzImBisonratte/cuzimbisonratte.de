@@ -2,7 +2,7 @@
 const config = {
     main_path: 'res/js/themes/',
     standart: "night",
-    standart_dark: "night",
+    standart_dark: "dark",
     standart_light: "light",
     themes: [{
             name: 'dark',
@@ -14,7 +14,15 @@ const config = {
             background3: '#0f111a',
             accent: '#eb660e',
             accent2: '#f2a900',
-            icon: '<i class="fas fa-adjust"></i>'
+            icon: '<i class="fas fa-adjust"></i>',
+            slide_title_bg: '#000000',
+            slide_title: '#ffffff',
+            slide_aboutme_bg: '#ffe',
+            slide_aboutme: '#001',
+            slide_work_bg: '#00000f',
+            slide_work: '#ffffff',
+            slide_ghstats_bg: '#ddddff',
+            slide_ghstats: '#000000'
         },
         {
             name: 'night',
@@ -26,7 +34,15 @@ const config = {
             background3: '#0f111a',
             accent: '#0078d7',
             accent2: '#00bcf2',
-            icon: '<i class="fa-solid fa-cloud-moon"></i>'
+            icon: '<i class="fa-solid fa-cloud-moon"></i>',
+            slide_title_bg: '#000000',
+            slide_title: '#ffffff',
+            slide_aboutme_bg: '#222222',
+            slide_aboutme: '#ffffff',
+            slide_work_bg: '#000000',
+            slide_work: '#ffffff',
+            slide_ghstats_bg: '#222222',
+            slide_ghstats: '#ffffff'
         }, {
             name: 'light',
             displayName: 'Hell',
@@ -37,7 +53,15 @@ const config = {
             background3: '#e6e6e6',
             accent: '#eb660e',
             accent2: '#f2a900',
-            icon: '<i class="fa-solid fa-sun"></i>'
+            icon: '<i class="fa-solid fa-sun"></i>',
+            slide_title_bg: '#ffffff',
+            slide_title: '#000000',
+            slide_aboutme_bg: '#000000',
+            slide_aboutme: '#ffffff',
+            slide_work_bg: '#000000',
+            slide_work: '#ffffff',
+            slide_ghstats_bg: '#000000',
+            slide_ghstats: '#ffffff'
         }
     ]
 };
