@@ -58,8 +58,8 @@ const config = {
             slide_title: '#000000',
             slide_aboutme_bg: '#000000',
             slide_aboutme: '#ffffff',
-            slide_work_bg: '#000000',
-            slide_work: '#ffffff',
+            slide_work_bg: '#ffe',
+            slide_work: '#001',
             slide_ghstats_bg: '#000000',
             slide_ghstats: '#ffffff'
         }
